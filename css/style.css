@@ -1,0 +1,420 @@
+/* =============================
+    common css
+============================ */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+ul,ol,li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+:root{
+    --button-color: #FCD980;
+    --text-color: #2405F2;
+    --bg-color:#1C1E53;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ==============================
+       common css
+============================== */
+/* ==============================
+       menupart start
+============================== */
+   #menuPart{
+    padding: 32px 0;
+    background-color: #1C1E53;
+   }
+   .menuItem{
+        display: flex;
+    }
+    .menuItemDiv{
+        display: flex;
+        align-items: center;
+        padding-left: 452px;
+        padding-right: 48px;
+        column-gap: 32px;  
+    }
+    .menuItemDiv__put a{
+        color: #fff;
+        font-size: 15px;
+    }
+    .btn button{
+        padding: 16px 48px;
+        background: transparent;
+        border-radius: 41px;
+        border: 2px solid rgba(244, 246, 252, 0.2);
+        color: #fff;
+        font-size: 15px;
+        transition: 0.5s;
+    }
+    .btn button:hover{
+        background-color: green;
+    }
+/* ==============================
+       menupart start
+============================== */
+/* ==============================
+       bannerPart start
+============================== */
+#BannerPart{
+    padding: 126px 0;
+    background-color: #1C1E53;
+}
+.bannerBox{
+    display: flex;
+    align-items: center;
+}
+.boxRight__title{
+    font-size: 54px;
+    font-weight: 600;
+    padding-right: 30px;
+    color: #fff;
+    max-width: 582px;
+}
+.boxRight__summary{
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 562px;
+    color: #fff;
+    padding: 22px 0 48px;
+}
+.buttonIcon{
+    display: flex;
+}
+.buttonIcon__icon{
+   margin-right: 30px; 
+}
+.buttonIcon a{
+    padding: 16px 56px;
+    border: 2px solid green;
+    border-radius: 41px;
+    color: #fff;
+    transition: 0.5s;
+}
+.buttonIcon a:hover{
+    background-color: #FCD980;
+    opacity: 1;
+}
+
+
+
+/* ==============================
+       bannerPart start
+============================== */
+
+
+/* ==============================
+       project part start
+============================== */
+#projectPart{
+    margin: 128px 0;
+}
+.projectUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.projectBox{
+    margin-top: 64px;
+}
+.projectUp__title{
+    font-size: 48px;
+    font-weight: 600;
+    width: 467px;
+
+}
+.project__link{
+    color: #282938;
+}
+.projectUp__details{
+    font-size: 16px;
+    font-weight: 500;
+    width: 83px;
+    display: flex;
+}
+.projectBox{
+    display: flex;
+    justify-content: space-between;
+}
+.overContent {
+    position: relative;
+    left: 20px;
+    top: 396px;
+}
+.content__title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+.conTent__para{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin: 5px 0;
+}
+.projectBox__left{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: -70%;
+    height: 100%;
+    max-width: 396px;
+     
+    background-color: #1C1E536B;
+    transition: 0.5s;
+}
+.projectBox__left:hover .overlay{
+    left: 0;
+}
+
+.BoxRight{
+    position: relative;
+    overflow: hidden;
+}
+.radder--modi{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1C1E536B;
+    transition: 0.5s;
+}
+.BoxRight:hover .radder--modi{
+    top:0;
+}
+.veiewProject{
+    color: #FCD980;
+}
+/* ==============================
+       project part end
+============================== */
+
+/* ==============================
+       blog part start
+============================== */
+
+
+
+
+
+
+/* ==============================
+      blog part end
+============================== */
+#BlogPart{
+    padding: 100px 0;
+}
+.blogBox{
+    width: 405px;
+}
+.blogTop__top{
+    font-size: 48px;
+    font-weight: 600;
+    color: #222;
+    padding-bottom: 30px;
+}
+.box__soto{
+font-size: 16px;
+font-weight: 500;
+width: 93px;
+padding-top: 40px;
+padding-bottom: 16px;
+}
+.box__shadow{
+    font-size: 24px;
+    font-weight: 500;
+    width: 405px;
+    padding-bottom: 16px;
+}
+.p__item{
+    font-size: 16px;
+    font-weight: 400;
+    width: 405px;
+}
+.read__icon{
+    color: red;
+    padding-top: 20px;
+}
+.read__icon i{
+    padding-left: 10px;
+}
+.itemBlog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ==============================
+       faqpart start
+============================== */
+#faqPart{
+    padding: 128px 0px;
+}
+.faqBox{
+    display: flex;
+    justify-content: space-between;
+}
+.faqBox__right{
+    max-width: 846px;
+}
+.faqBox__left{
+    width: 328px;
+}
+.boxLeft__title{
+    font-size: 38px;
+    font-weight: 600;
+}
+.boxLeft__summary{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.content__item{
+    display: flex;
+    align-items: center;
+}
+.span__title{
+    color: #2405F2;
+    font-size: 24px;
+    font-weight: 500;
+    padding-right: 59px;
+}
+.much__item{
+    font-size: 19px;
+    font-weight: 500;
+    padding-right: 300px;
+}
+.bostItem {
+    padding: 12px 84px;
+}
+.wapper--modi{
+   position: relative;
+}
+.wapper--modi::before{
+    position: absolute;
+    content: "";
+    top: -52px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2322;
+}
+.faqBox__right ul li{
+    padding-bottom: 80px;
+}
+/* ==============================
+        faqpart end
+============================== */
+
+
+
+
+/* ==============================
+       footerpart start
+============================== */
+#footerPart{
+    margin: 100px 0px 0px;
+    background-color: #1C1E53;
+}
+.footerTop__summary {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-right: 64px;
+    margin: 22px 0 86px;
+    color: #fff;
+}
+.foooterTop__left{
+    width: 517px;
+}
+.footerTop{
+    display: flex;
+    column-gap: 142px;
+    padding: 100px 0px 0px;
+}
+.information{
+    display: flex;
+    padding: 17px 100px 16px 37px;
+    justify-content: space-between;
+    background-color: var(--button-color);
+}
+.information__left{
+    padding-right: 20px;
+}
+.foooterTop__raw{
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+.foooterTop__details {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 14px 0 28px;
+    padding-right: 221px;
+    color: #fff;
+}
+.icon a{
+   padding-right: 26px;
+}
+.icon a i{
+   height: 40px;
+   width: 40px;
+   background-color: #fff;
+   line-height: 40px;
+   text-align: center;
+   border-radius: 50%;
+   transition: 0.5s;
+
+}
+a i[class="fa-brands fa-facebook"]:hover{
+   background-color: rgb(72, 168, 72);
+   color: #fff; 
+}
+a i[class="fa-brands fa-twitter"]:hover{
+    background-color: rgb(72, 168, 72);
+    color: #fff; 
+ }
+ a i[class="fa-brands fa-instagram"]:hover{
+    background-color: rgb(72, 168, 72);
+    color: #fff; 
+ }
+ a i[class="fa-brands fa-linkedin"]:hover{
+    background-color: rgb(72, 168, 72);
+    color: #fff; 
+ }
+ .footerLast{
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footerLast__right{
+    display: flex;
+    padding-right: 50px;
+ }
+ .footerLast__right li{
+    padding: 0px 32px;
+ }
+/* ==============================
+       footerpart end
+============================== */
